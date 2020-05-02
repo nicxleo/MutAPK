@@ -1,0 +1,100 @@
+Mutant 1: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant1\src\\AndroidManifest.xml; InvalidLabel in line { 19 }
+	For mutant 1 activity label at line 19 has been change from "@string/title_activity_routines" to "357bb8909e7f487d8924e8ba941b5895"
+Mutant 2: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant2\src\\AndroidManifest.xml; ActivityNotDefined in line { 17 }
+	For mutant 2 the lines between 18 and 18 have been deleted.
+Mutant 3: C:\Users\Esteb\Documents\GitHub\MutAPK\.\tmp\mutants\\\es.usc.citius.servando.calendula-mutant3\src\\smali\es\usc\citius\servando\calendula\activities\AllergiesActivity.smali; DifferentActivityIntentDefinition in line { 998 }
+	For mutant 3 component name at line 998 has been change from "Les/usc/citius/servando/calendula/activities/AllergiesSearchActivity;" to "Les/usc/citius/servando/calendula/activities/StartActivity;"
+Mutant 4: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant4\src\\AndroidManifest.xml; InvalidActivityPATH in line { 17 }
+	For mutant 4 activity name at line 17 has been change from "es.usc.citius.servando.calendula.activities.MaterialIntroActivity" to "es.usc.citius.servando.calendula.ativities.MaterialIntroActivity"
+Mutant 5: C:\Users\Esteb\Documents\GitHub\MutAPK\.\tmp\mutants\\\es.usc.citius.servando.calendula-mutant5\src\\smali\es\usc\citius\servando\calendula\activities\AllergiesSearchActivity$2.smali; InvalidKeyIntentPutExtra in line { 47 }
+	For mutant 5 extra key value at line 47 has been set to 7bcafa50f2fc4ea89174148ef2e5bfc6
+Mutant 6: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant6\src\\AndroidManifest.xml; InvalidLabel in line { 20 }
+	For mutant 6 activity label at line 20 has been change from "@string/app_name" to "bf822c9b1f7142f685b17a80e5bafb16"
+Mutant 7: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant7\src\\AndroidManifest.xml; InvalidLabel in line { 21 }
+	For mutant 7 activity label at line 21 has been change from "@string/title_activity_medicines" to "723eea748ad1475da9831d1b23bbece1"
+Mutant 8: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant8\src\\AndroidManifest.xml; InvalidLabel in line { 22 }
+	For mutant 8 activity label at line 22 has been change from "@string/title_activity_medicines" to "331439863344445fbf18737246700533"
+Mutant 9: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant9\src\\AndroidManifest.xml; InvalidLabel in line { 23 }
+	For mutant 9 activity label at line 23 has been change from "@string/title_activity_medicines_search" to "e0d15441b6e648359e5bdd1905fb6d41"
+Mutant 10: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant10\src\\AndroidManifest.xml; InvalidLabel in line { 24 }
+	For mutant 10 activity label at line 24 has been change from "@string/title_activity_schedules" to "72ae667463a846e599b43004ad5dda57"
+Mutant 11: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant11\src\\AndroidManifest.xml; InvalidLabel in line { 31 }
+	For mutant 11 activity label at line 31 has been change from "@string/title_activity_schedules" to "453de940465a44d08976ef4dd401b07c"
+Mutant 12: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant12\src\\AndroidManifest.xml; InvalidLabel in line { 47 }
+	For mutant 12 activity label at line 47 has been change from "@string/title_activity_calendar" to "ed121ce165f24bd6bed1dcd4ea3ece48"
+Mutant 13: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant13\src\\AndroidManifest.xml; InvalidLabel in line { 48 }
+	For mutant 13 activity label at line 48 has been change from "ScanActivity" to "2d429be2bec341139ac64a9b4c39b56b"
+Mutant 14: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant14\src\\AndroidManifest.xml; InvalidLabel in line { 49 }
+	For mutant 14 activity label at line 49 has been change from "Calendula" to "be64d0fe3ae24b3180c8593f63916c31"
+Mutant 15: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant15\src\\AndroidManifest.xml; InvalidLabel in line { 56 }
+	For mutant 15 activity label at line 56 has been change from "@string/title_activity_confirm_schedules" to "d2b59541ad27466b8c1b55c326ad645c"
+Mutant 16: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant16\src\\AndroidManifest.xml; InvalidLabel in line { 57 }
+	For mutant 16 activity label at line 57 has been change from "@string/title_activity_patients" to "a52e136a50254f6480d07a6b651929e4"
+Mutant 17: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant17\src\\AndroidManifest.xml; InvalidLabel in line { 58 }
+	For mutant 17 activity label at line 58 has been change from "@string/title_activity_patient_detail" to "cc6ba127b08c413ea27785591116cce6"
+Mutant 18: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant18\src\\AndroidManifest.xml; InvalidLabel in line { 61 }
+	For mutant 18 activity label at line 61 has been change from "@string/title_activity_about" to "749a0abc4b5e4e92a5f5934f494bd866"
+Mutant 19: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant19\src\\AndroidManifest.xml; InvalidLabel in line { 66 }
+	For mutant 19 activity label at line 66 has been change from "@string/title_activity_webview" to "cf32e42061db4b60840778da6a4e1ded"
+Mutant 20: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant20\src\\AndroidManifest.xml; InvalidLabel in line { 67 }
+	For mutant 20 activity label at line 67 has been change from "@string/title_activity_allergies" to "cc479a0bfa6349beb2351bc46dc83c4f"
+Mutant 21: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant21\src\\AndroidManifest.xml; InvalidLabel in line { 68 }
+	For mutant 21 activity label at line 68 has been change from "@string/title_activity_allergies_search" to "3ad5d36f127e4d7abc3f64ee0abe976a"
+Mutant 22: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant22\src\\AndroidManifest.xml; InvalidLabel in line { 69 }
+	For mutant 22 activity label at line 69 has been change from "@string/title_activity_allergies_search" to "56686b4b35ea45738d1cf15a7b967cc4"
+Mutant 23: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant23\src\\AndroidManifest.xml; ActivityNotDefined in line { 18 }
+	For mutant 23 the lines between 19 and 19 have been deleted.
+Mutant 24: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant24\src\\AndroidManifest.xml; ActivityNotDefined in line { 19 }
+	For mutant 24 the lines between 20 and 20 have been deleted.
+Mutant 25: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant25\src\\AndroidManifest.xml; ActivityNotDefined in line { 20 }
+	For mutant 25 the lines between 21 and 21 have been deleted.
+Mutant 26: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant26\src\\AndroidManifest.xml; ActivityNotDefined in line { 21 }
+	For mutant 26 the lines between 22 and 22 have been deleted.
+Mutant 27: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant27\src\\AndroidManifest.xml; ActivityNotDefined in line { 22 }
+	For mutant 27 the lines between 23 and 23 have been deleted.
+Mutant 28: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant28\src\\AndroidManifest.xml; ActivityNotDefined in line { 23 }
+	For mutant 28 the lines between 24 and 24 have been deleted.
+Mutant 29: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant29\src\\AndroidManifest.xml; ActivityNotDefined in line { 24 }
+	For mutant 29 the lines between 25 and 25 have been deleted.
+Mutant 30: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant30\src\\AndroidManifest.xml; ActivityNotDefined in line { 25 }
+	For mutant 30 the lines between 26 and 31 have been deleted.
+Mutant 31: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant31\src\\AndroidManifest.xml; ActivityNotDefined in line { 31 }
+	For mutant 31 the lines between 32 and 32 have been deleted.
+Mutant 32: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant32\src\\AndroidManifest.xml; ActivityNotDefined in line { 47 }
+	For mutant 32 the lines between 48 and 48 have been deleted.
+Mutant 33: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant33\src\\AndroidManifest.xml; ActivityNotDefined in line { 48 }
+	For mutant 33 the lines between 49 and 49 have been deleted.
+Mutant 34: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant34\src\\AndroidManifest.xml; ActivityNotDefined in line { 49 }
+	For mutant 34 the lines between 50 and 56 have been deleted.
+Mutant 35: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant35\src\\AndroidManifest.xml; ActivityNotDefined in line { 56 }
+	For mutant 35 the lines between 57 and 57 have been deleted.
+Mutant 36: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant36\src\\AndroidManifest.xml; ActivityNotDefined in line { 57 }
+	For mutant 36 the lines between 58 and 58 have been deleted.
+Mutant 37: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant37\src\\AndroidManifest.xml; ActivityNotDefined in line { 58 }
+	For mutant 37 the lines between 59 and 61 have been deleted.
+Mutant 38: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant38\src\\AndroidManifest.xml; ActivityNotDefined in line { 61 }
+	For mutant 38 the lines between 62 and 62 have been deleted.
+Mutant 39: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant39\src\\AndroidManifest.xml; ActivityNotDefined in line { 62 }
+	For mutant 39 the lines between 63 and 63 have been deleted.
+Mutant 40: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant40\src\\AndroidManifest.xml; ActivityNotDefined in line { 66 }
+	For mutant 40 the lines between 67 and 67 have been deleted.
+Mutant 41: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant41\src\\AndroidManifest.xml; ActivityNotDefined in line { 67 }
+	For mutant 41 the lines between 68 and 68 have been deleted.
+Mutant 42: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant42\src\\AndroidManifest.xml; ActivityNotDefined in line { 68 }
+	For mutant 42 the lines between 69 and 69 have been deleted.
+Mutant 43: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant43\src\\AndroidManifest.xml; ActivityNotDefined in line { 69 }
+	For mutant 43 the lines between 70 and 70 have been deleted.
+Mutant 44: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant44\src\\AndroidManifest.xml; ActivityNotDefined in line { 70 }
+	For mutant 44 the lines between 71 and 71 have been deleted.
+Mutant 45: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant45\src\\AndroidManifest.xml; ActivityNotDefined in line { 71 }
+	For mutant 45 the lines between 72 and 72 have been deleted.
+Mutant 46: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant46\src\\AndroidManifest.xml; ActivityNotDefined in line { 72 }
+	For mutant 46 the lines between 73 and 73 have been deleted.
+Mutant 47: .\tmp\mutants\\\es.usc.citius.servando.calendula-mutant47\src\\AndroidManifest.xml; ActivityNotDefined in line { 95 }
+	For mutant 47 the lines between 96 and 96 have been deleted.
+Mutant 48: C:\Users\Esteb\Documents\GitHub\MutAPK\.\tmp\mutants\\\es.usc.citius.servando.calendula-mutant48\src\\smali\es\usc\citius\servando\calendula\activities\AllergiesSearchActivity$2.smali; DifferentActivityIntentDefinition in line { 43 }
+	For mutant 48 component name at line 43 has been change from "Les/usc/citius/servando/calendula/settings/CalendulaSettingsActivity;" to "Les/usc/citius/servando/calendula/HomePagerActivity;"
+Mutant 49: C:\Users\Esteb\Documents\GitHub\MutAPK\.\tmp\mutants\\\es.usc.citius.servando.calendula-mutant49\src\\smali\es\usc\citius\servando\calendula\activities\ConfirmActivity.smali; DifferentActivityIntentDefinition in line { 1947 }
+	For mutant 49 component name at line 1947 has been change from "Les/usc/citius/servando/calendula/activities/StartActivity;" to "Les/usc/citius/servando/calendula/activities/MedicinesActivity;"
+Mutant 50: C:\Users\Esteb\Documents\GitHub\MutAPK\.\tmp\mutants\\\es.usc.citius.servando.calendula-mutant50\src\\smali\es\usc\citius\servando\calendula\activities\ConfirmActivity.smali; DifferentActivityIntentDefinition in line { 758 }
+	For mutant 50 component name at line 758 has been change from "Les/usc/citius/servando/calendula/HomePagerActivity;" to "Les/usc/citius/servando/calendula/activities/AllergiesActivity;"

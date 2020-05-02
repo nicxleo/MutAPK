@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="es.usc.citius.servando.calendula" platformBuildVersionCode="42" platformBuildVersionName="2.5.11">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="es.usc.citius.servando.calendula.CalendulaApp" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name="es.usc.citius.servando.calendula.activities.MaterialIntroActivity" android:theme="@style/Theme.Intro"/>
+        <activity android:name="es.usc.citius.servando.calendula.activities.SchedulesHelpActivity" android:theme="@style/Theme.Intro"/>
+        <activity android:label="@string/title_activity_routines" android:name="es.usc.citius.servando.calendula.activities.RoutinesActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTask" android:name="es.usc.citius.servando.calendula.HomePagerActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:label="@string/title_activity_medicines" android:name="es.usc.citius.servando.calendula.activities.MedicineInfoActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:label="@string/title_activity_medicines" android:name="es.usc.citius.servando.calendula.activities.MedicinesActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/title_activity_medicines_search" android:name="es.usc.citius.servando.calendula.activities.MedicinesSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible"/>
+        <activity android:label="@string/title_activity_schedules" android:name="es.usc.citius.servando.calendula.activities.ScheduleCreationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Translucent" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="es.usc.citius.servando.calendula.activities.StartActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_schedules" android:name="es.usc.citius.servando.calendula.activities.SummaryCalendarActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Translucent" android:windowSoftInputMode="stateHidden"/>
+        <receiver android:name="es.usc.citius.servando.calendula.scheduling.AlarmReceiver"/>
+        <receiver android:name="es.usc.citius.servando.calendula.scheduling.PickupAlarmReceiver"/>
+        <receiver android:name="es.usc.citius.servando.calendula.scheduling.NotificationEventReceiver"/>
+        <receiver android:name="es.usc.citius.servando.calendula.scheduling.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="es.usc.citius.servando.calendula.drugdb.download.DBDownloadReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="AEMPS_DB_VERSION" android:value="3"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/title_activity_calendar" android:name="es.usc.citius.servando.calendula.activities.CalendarActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:label="ScanActivity" android:name="es.usc.citius.servando.calendula.activities.ScanActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:label="Calendula" android:name="es.usc.citius.servando.calendula.activities.UpdateFromFileActivity">
+            <intent-filter>
+                <data android:mimeType="text/plain"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_confirm_schedules" android:name="es.usc.citius.servando.calendula.activities.ConfirmSchedulesActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_patient_detail" android:name="es.usc.citius.servando.calendula.activities.PatientDetailActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="es.usc.citius.servando.calendula.activities.PatientsActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_about" android:name="es.usc.citius.servando.calendula.activities.AboutActivity"/>
+        <activity android:launchMode="singleTask" android:name="es.usc.citius.servando.calendula.activities.ConfirmActivity" android:theme="@style/AppTheme"/>
+        <service android:label="AlarmIntentService" android:name="es.usc.citius.servando.calendula.scheduling.AlarmIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="es.usc.citius.servando.calendula.drugdb.download.InstallDatabaseService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="es.usc.citius.servando.calendula.drugdb.download.UpdateDatabaseService"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/title_activity_webview" android:name="es.usc.citius.servando.calendula.activities.WebViewActivity"/>
+        <activity android:label="@string/title_activity_allergies" android:name="es.usc.citius.servando.calendula.activities.AllergiesActivity"/>
+        <activity android:label="@string/title_activity_allergies_search" android:name="es.usc.citius.servando.calendula.activities.AllergiesSearchActivity"/>
+        <activity android:label="@string/title_activity_allergies_search" android:launchMode="singleInstance" android:name="es.usc.citius.servando.calendula.notifications.LockScreenAlarmActivity" android:noHistory="true" android:screenOrientation="portrait" android:showOnLockScreen="true"/>
+        <activity android:name="es.usc.citius.servando.calendula.pinlock.PinLockActivity"/>
+        <activity android:name="es.usc.citius.servando.calendula.settings.CalendulaSettingsActivity" android:theme="@style/SettingsActivityTheme"/>
+        <activity android:name="com.mikepenz.aboutlibraries.ui.LibsActivity"/>
+        <service android:exported="false" android:name="com.evernote.android.job.v21.PlatformJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.evernote.android.job.v14.PlatformAlarmService"/>
+        <receiver android:exported="false" android:name="com.evernote.android.job.v14.PlatformAlarmReceiver">
+            <intent-filter>
+                <action android:name="com.evernote.android.job.v14.RUN_JOB"/>
+                <action android:name="net.vrallev.android.job.v14.RUN_JOB"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.evernote.android.job.JobBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="false" android:exported="true" android:name="com.evernote.android.job.gcm.PlatformGcmService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.evernote.android.job.JobRescheduleService"/>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+    </application>
+</manifest>
